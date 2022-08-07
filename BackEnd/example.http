@@ -1,0 +1,99 @@
+POST http://localhost:3000/api/good/add
+content-type: application/json
+
+{
+    "productName": "Bia Hà Nội",
+    "priceCapital": 10000,
+    "priceSell": 12000,
+    "inventory": 20,
+    "tokenUser": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjdjNzI5YjQ2MGI0NzAxNDI1ZDVkNmUiLCJ1c2VybmFtZSI6InVzZXIxIiwiaWF0IjoxNjUyMzI4OTEyfQ.aofcvVRsG-W0pl5P6P556UXOUlwfpQ2w-oUS81iqVGQ"
+}
+
+### 
+
+POST http://localhost:3000/api/invoice/create
+content-type: application/json
+
+{
+    "nameGuest": "",
+    "addressGuest": "",
+    "phoneGuest": "",
+    "paymentType": "Tiền mặt",
+    "productsBuying": [
+        {
+            "codeProduct": "SP1",
+            "nameProduct": "Rượu Chivas Regal 12",
+            "countProduct": 4,
+            "priceSell": 67000
+        },
+        {
+            "codeProduct": "SP3",
+            "nameProduct": "Bia Hà Nội",
+            "countProduct": 10,
+            "priceSell": 12000
+        }
+    ],
+    "tokenUser": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjdjNzI5YjQ2MGI0NzAxNDI1ZDVkNmUiLCJ1c2VybmFtZSI6InVzZXIxIiwibmFtZSI6Ik5NVCIsImlhdCI6MTY1MjMyOTk5M30.5XxoUAuVM5iF5kBhnBS-tCTIXVFKJkkGgd6D3VtNIPI"
+}
+
+###
+
+POST http://localhost:3000/api/admin/login
+content-type: application/json
+
+{
+    "username": "admin",
+    "password": "admin"
+}
+
+
+###
+
+POST http://localhost:3000/api/admin/update-password
+content-type: application/json
+
+{
+    "passwordOld": "nmt",
+    "passwordNew": "admin",
+    "tokenAdmin": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjdjNmVkZjY0NTExOTZmMDBmN2YzNGEiLCJ1c2VybmFtZSI6ImFkbWluIiwiaWF0IjoxNjUyNDA1NTg3fQ.seQiUn47nE68OPxtJ5pOSMYNmj33Ee51GDlKB2CAmTU"
+}
+
+###
+
+POST http://localhost:3000/api/user/getList
+content-type: application/json
+
+{
+    "tokenAdmin": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjdjNmVkZjY0NTExOTZmMDBmN2YzNGEiLCJ1c2VybmFtZSI6ImFkbWluIiwiaWF0IjoxNjUyMzMxNzUxfQ.vGpKvKtrRKxuSTgQHkhO7MB8dJtkEu6IIfQwdFgVgAU"
+}
+
+
+###
+
+POST http://localhost:3000/api/user/remove
+content-type: application/json
+
+{
+    "tokenAdmin": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjdjNmVkZjY0NTExOTZmMDBmN2YzNGEiLCJ1c2VybmFtZSI6ImFkbWluIiwiaWF0IjoxNjUyNDA2NDc0fQ.4wvn0lyZHwk9n9Ygd9ao48YYRqqmqG8rAjHQxYK0k1E",
+    "username": "user1"
+}
+
+
+###
+
+POST http://localhost:3000/api/invoice/get-list
+content-type: application/json
+
+{
+    "tokenAdmin": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjdjNmVkZjY0NTExOTZmMDBmN2YzNGEiLCJ1c2VybmFtZSI6ImFkbWluIiwiaWF0IjoxNjUyNDA2NDc0fQ.4wvn0lyZHwk9n9Ygd9ao48YYRqqmqG8rAjHQxYK0k1E"
+}
+
+
+###
+
+POST http://localhost:3000/api/good/get-list
+content-type: application/json
+
+{
+
+}

@@ -1,0 +1,47 @@
+{
+  "name": "booknodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon src/index.js",
+    "watch": "node-sass --watch src/resources/scss/ --output src/public/css/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "argon2": "^0.28.5",
+    "axios": "^0.26.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "handlebars": "^4.5.0",
+    "http": "0.0.1-security",
+    "jquery": "^3.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.0.4",
+    "mongoose-delete": "^0.5.4",
+    "multer": "^1.4.4",
+    "node-fetch": "^3.2.4",
+    "ping": "^0.4.2",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BossNMT/hackcookie.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BossNMT/hackcookie/issues"
+  },
+  "homepage": "https://github.com/BossNMT/hackcookie#readme",
+  "description": ""
+}

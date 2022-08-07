@@ -1,0 +1,16 @@
+@import '../../../assets/scss/variables';
+.ant-table-thead > tr > th {
+  
+    background: #DCF4FC !important;
+}
+
+.btn-upload {
+    padding: 4px 8px;
+    background: $primary-color;
+    cursor: pointer;
+    border-radius: 8px;
+    color: $white;
+    font-size: 14px;
+    text-align: center;
+}
+

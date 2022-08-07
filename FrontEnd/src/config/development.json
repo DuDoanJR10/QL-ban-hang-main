@@ -1,0 +1,7 @@
+{
+  "env": "development",
+  "apiUrl": "http://45.118.144.25:8025/api/",
+  "user_token_key": "ustkrohtodev",
+  "user_profile_key": "usinforohtodev",
+  "user_refresh_token_key": "usretkrohtodev"
+}

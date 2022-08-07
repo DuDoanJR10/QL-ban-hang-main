@@ -1,0 +1,7 @@
+{
+  "env": "production",
+  "apiUrl": "http://45.118.144.25:8025/api/",
+  "user_token_key": "ustkrohtoprod",
+  "user_profile_key": "usinforohtoprod",
+  "user_refresh_token_key": "usretkrohtoprod"
+}

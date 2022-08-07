@@ -1,0 +1,80 @@
+@import 'variables';
+@import 'icon';
+@import 'custom-ant.scss';
+@import 'font.scss';
+@import 'btn';
+@import 'general';
+@import 'colors';
+@import 'header';
+
+
+.App {
+  font-family: 'Source Sans Pro', sans-serif;
+  // header
+  .quill-better-table-wrapper {
+    table {
+      border: 1px solid black;
+      tr,td {
+        border: 1px solid black;
+      }
+    }
+  }
+  .header {
+    display: block;
+    width: 100%;
+    text-align: right;
+    padding: 0 30px;
+    background: #fff !important;
+
+    border-bottom: 1px solid $white;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
+    color: $black;
+    i {
+      font-size: 24px;
+    }
+    &__right {
+      line-height: 40px;
+      &-item {
+        margin-right: 40px;
+      }
+    }
+    .icon-user2 {
+      margin-right: 10px;
+    }
+    .name {
+      font-size: 18px;
+      color: $black;
+      padding-right: 20px;
+      border-right: 2px solid $black;
+      margin-right: 20px;
+    }
+    span {
+    color: $black;
+
+    }
+  }
+  // filter bar
+  .filter-bar {
+    margin-bottom: 20px;
+    &__pophover {
+      border: 1px solid $gray_border_3;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+      border-radius: 10px;
+      margin-right: 20px;
+    }
+  }
+  .bg-main {
+    border-radius: 8px;
+    padding: 16px;
+    background-color: $white;
+  }
+}
+.layout-loading {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  padding: 30px 50px;
+  margin: 20px 0;
+}
+

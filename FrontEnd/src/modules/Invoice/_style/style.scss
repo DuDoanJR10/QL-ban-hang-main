@@ -1,0 +1,28 @@
+.modal__info {
+    width: 100%;
+    justify-content: space-between;
+
+    &__left {
+        width: 45%;
+
+        .item {
+            display: flex;
+            
+            p {
+                width: 50%;
+            }
+        }
+    }
+
+    &__right {
+        width: 45%;
+
+        .item {
+            display: flex;
+            
+            p {
+                width: 50%;
+            }
+        }
+    }
+}

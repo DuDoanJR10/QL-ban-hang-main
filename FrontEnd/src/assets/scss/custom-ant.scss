@@ -1,0 +1,418 @@
+.ant-layout {
+  color: $black;
+  background: $gray-light;
+  &-content {
+    padding: 20px 10px 30px 10px;
+  }
+  .ant-breadcrumb {
+    margin-bottom: 20px;
+  }
+  i {
+    font-size: 18px;
+    vertical-align: text-top;
+  }
+  // ANT SIDEBAR
+  &-sider {
+    background: $white;
+    border: 1px solid $white;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 250px;
+    max-width: 250px;
+    flex: 0 0 250px;
+    .icon-nav {
+      position: absolute;
+      right: 18px;
+      margin-top: 10px;
+      cursor: pointer;
+      &__close {
+        transform: rotate(180deg);
+        transition: all 0.5s;
+      }
+    }
+    .logo {
+      padding: 20px 20px 25px 20px;
+    }
+    .ant-menu {
+      background: #005c8d21 !important;
+      font-weight: 700;
+      .nav-icon {
+        font-size: 20px;
+      }
+      &-item {
+        margin: 0 !important;
+        height: 45px;
+        line-height: 45px;
+        a {
+          color: $black;
+        }
+        &-active {
+          background: #005c8d21;
+          a {
+            color: $black;
+          }
+        }
+        &-selected {
+          font-weight: bold;
+          background: #005c8d21;
+          a {
+            color: $black;
+          }
+          i{
+            color: $red_dark;
+          }
+        }
+      }
+      &-item:hover {
+        background-color: #005c8d21 !important;
+      }
+      &-item:active {
+        background-color: #005c8d21 !important;
+      }
+      &-submenu {
+        color: $black;
+        .ant-menu-sub {
+          background-color:#005c8d21 !important;
+          .ant-menu-item-selected {
+            background-color: #005c8d54 !important;
+            a {
+              color: $black !important;
+            }
+          }
+          .ant-menu-item:hover {
+            background-color: #005c8d54 !important;
+            a {
+              color: $black;
+            }
+          }
+          .ant-menu-item {
+            margin: 0 !important;
+          }
+        }
+        .ant-menu-submenu-title {
+          color: $black;
+          margin-top: 0;
+          margin-bottom: 0;
+          height: 45px;
+          line-height: 45px;
+        }
+        .ant-menu-submenu-arrow::before {
+          background-color: $black;
+        }
+        .ant-menu-submenu-arrow::after {
+          background-color: $black;
+        }
+        &-selected {
+          .ant-menu-submenu-title {
+            background-color: #005c8d21 !important;
+            font-weight: bold;
+            i {
+              color: $black;
+            }
+            color: $black;
+          }
+        }
+        &-open {
+          .ant-menu-item {
+            &-selected {
+              border: none !important;
+              background-color: #041D2B !important;
+              a {
+                color: $black
+              }
+            }
+            &-only-child:hover {
+              border: none !important;
+            }
+          }
+        }
+      }
+      &-submenu:hover {
+        background-color: #005c8d21;
+      }
+    }
+  }
+  &-content {
+    margin-top: 0px !important;
+  }
+}
+.ant-input {
+  // background: $white;
+  border-color: $gray_border;
+}
+.ant-input-number {
+  width: 100%;
+}
+.ant-table {
+  thead {
+    th {
+      font-weight: 600;
+    }
+  }
+  &-title {
+    font-weight: 700;
+  }
+  &-thead {
+    tr > th {
+      padding: 10px;
+    }
+  }
+  &-tbody {
+    tr > td {
+      padding: 10px;
+    }
+  }
+}
+// ANT TAB
+.ant-tabs {
+  &-nav-wrap {
+    border-bottom: 1px solid $gray_border;
+  }
+  &-tab {
+    &-active {
+      .ant-tabs-tab-btn {
+        font-weight: 600 !important;
+        color: $black;
+      }
+    }
+  }
+}
+.ant-divider {
+  border-color: $gray_border;
+}
+// ANT SELECT
+.ant-select {
+  font-size: 14px;
+  &-selector {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  &-dropdown {
+    width: fit-content !important;
+  }
+  .ant-select-selector {
+    border-color: $gray_border;
+    border-radius: 8px !important;
+  }
+  &-multiple {
+    .ant-select-selection-item {
+      border: 1px solid $gray_border;
+      box-sizing: border-box;
+      border-radius: 5px;
+      background-color: $blue;
+      color: $white;
+    }
+    .ant-select-selection-item-remove {
+      width: 16px;
+      height: 16px;
+      color: $white;
+      border-radius: 50%;
+      .anticon-close {
+        font-size: 9px;
+        vertical-align: text-top;
+      }
+    }
+  }
+}
+
+.ant-input-search-with-button {
+  .ant-input-wrapper {
+    button {
+      background-color: transparent;
+      border: 1px solid #d2d6de;
+      color: #495057;
+    }
+  }
+}
+.ant-input-search {
+  .ant-input-affix-wrapper {
+    border-radius: 10px !important;
+  }
+  .ant-input-group-addon {
+    display: none;
+  }
+}
+// ANT CHECKBOX
+.ant-checkbox {
+  .ant-checkbox-inner {
+    border-color: $gray_border;
+  }
+  &-checked {
+    .ant-checkbox-inner {
+      background-color: $blue;
+      border-color: $blue;
+    }
+  }
+}
+.ant-checkbox-checked {
+  .ant-checkbox-inner {
+    background-color: $blue;
+  }
+}
+.ant-radio-checked {
+  .ant-radio-inner {
+    border-color: $blue;
+  }
+}
+
+// ANT AVATAR
+.ant-avatar > img {
+  width: 100% !important;
+  height: 100% !important;
+}
+// ANT MODAL
+.ant-modal {
+  &-title {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  &-footer {
+    button {
+      border-radius: 10px;
+    }
+    .ant-btn-primary {
+      background-color: $blue;
+    }
+    .ant-btn-dangerous {
+      background-color: $red_dark;
+      color: $white;
+    }
+  }
+}
+// ANT RADIO
+.ant-radio-group {
+  .ant-radio-button-wrapper-checked {
+    background-color: $blue;
+  }
+}
+.ant-picker {
+  border-color: $gray_border;
+}
+.ant-input-group-addon {
+  .select-after {
+    .ant-select-selector {
+      border: none !important;
+    }
+  }
+}
+.ant-input-number {
+  border-color: $gray_border;
+}
+// ANT PAGINATION
+.ant-pagination {
+  &-item-active {
+    background-color: $blue;
+    border-color: $blue;
+    a {
+      color: $white;
+    }
+  }
+}
+
+.ant-table-thead {
+  .ant-table-cell {
+    background: #dcf4fc;
+
+    &.thead-title {
+      padding: 0 10px;
+    }
+  }
+}
+.ant-table-content {
+  &::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+    background-color: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: $gray_border;
+    border-radius: 10px;
+  }
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+}
+
+
+// ANT AFFIX
+.ant-affix {
+  height: 50px !important;
+  padding: 5px;
+  background-color: white;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
+    0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
+    0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.ant-switch-checked {
+  background-color: $green-done;
+}
+
+.ant-layout-sider .ant-menu-submenu .ant-menu-sub .ant-menu-item {
+  padding-left: 60px !important;
+}
+
+.ant-table-tbody > tr.ant-table-row:hover > td, .ant-table-tbody > tr > td.ant-table-cell-row-hover {
+  background: #ebf5ea;
+}
+
+.ant-layout-content {
+  margin: 16px 16px 0px !important;
+  padding: 0 !important;
+}
+
+.ant-upload-list {
+  display: none !important;
+}
+.ant-layout-sider, .ant-layout-sider .ant-menu {
+  background: #fff !important;
+  color: #000 !important;
+  border: none !important;
+}
+.ant-layout-sider .ant-menu-item a, span.ant-menu-title-content {
+  color: #000 !important;
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background: #005c8d21  !important;
+}
+
+.ant-card-meta {
+  display: flex;
+  align-items: center;
+}
+
+.ant-card-body {
+  padding: 12px;
+}
+
+.ant-card-meta-title {
+  color: #111;
+  margin: 0 !important;
+}
+
+.ant-card-meta-description {
+  color: #237fcd;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.ant-card:hover {
+  border-color: #237fcd;
+  box-shadow: 0 0 5px #237ecd80;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+// input focus
+.inp-order .ant-input{
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: #495057;
+}
+.inp-order .ant-input:focus{
+  outline: none !important;
+  box-shadow: none !important;
+}

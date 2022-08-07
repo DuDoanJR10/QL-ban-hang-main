@@ -1,0 +1,13 @@
+# dependencies
+/node_modules
+package-lock.json
+
+# testing
+/coverage
+
+# production
+/dist
+
+# local env files
+.env.local
+.env.*.local

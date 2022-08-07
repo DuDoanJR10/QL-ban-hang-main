@@ -1,0 +1,157 @@
+@import  '../../../assets/scss/variables';
+
+body {
+    background-color: $gray_light;
+}
+
+
+.sell__header {
+    background: #1888e8;
+    padding: 8px;
+
+    &-find {
+        width: 30%;
+    }
+
+    &-account {
+    }
+}
+
+.content {
+   
+
+    &__left {
+        width: 55%;
+        margin: 8px;
+        position: relative;
+        height: calc(100vh - 114px);
+
+        .productBuyding {
+            overflow: auto;
+            height:  calc(100% - 44px);
+        }
+        
+        &__list {
+            background: $white ;
+            border-radius: 10px;
+            padding: 8px;
+            width: 100%;
+            margin-bottom: 8px;
+            box-shadow: 0 0 10px #cfd0d9;
+            margin-bottom: 8px;
+
+            .item {
+                padding: 12px;
+
+                &__title {
+                    width: 40%;
+                    gap: 20px;
+
+                    p {
+                        margin: 0;
+                        font-size: 20px;
+                    }
+
+                    h3 {
+                        margin: 0;
+                        font-size: 20px;
+                        font-weight: bold;
+                    }
+                }
+
+                &__price {
+                    justify-content: flex-end;
+                    width: 100%;
+                    gap: 80px;
+
+                    h4 {
+                        margin: 0;
+                        font-size: 18px;
+                        font-weight: bold;
+                    }
+
+                    button {
+                        border: none;
+                        background: none;
+                        cursor: pointer;
+
+
+                        &:hover {
+                            color: red;
+                            transition: all 0.25s;
+                        }
+                    }
+                }
+            }
+
+        }
+
+        &__sum {
+            position: absolute;
+            background: $white ;
+            border-radius: 10px;
+            padding: 8px;
+            width: 100%;
+            bottom:0;
+
+            &__price {
+                color: red;
+                font-size: 18px;
+            }
+        }
+    }
+    &__right {
+        width: 45%;
+        border-radius: 10px;
+        margin: 8px;
+        background: $white ;
+        height: calc(100vh - 114px);
+        padding: 8px;
+        position: relative;
+
+        .btn-check-out {
+            bottom: 8px;
+            width: 97.5%;
+            position: absolute;
+        }
+    }
+    
+
+}
+
+.ant-dropdown-menu {
+    width: 150px;
+}
+
+
+.sell-footer {
+    height: 50px;
+    background-color: $white;
+    padding: 0 10px 0 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn-order {
+    position: absolute;
+    right: 0;
+    left: 0;
+    font-size: 24px;
+    height: 50px;
+    margin: 0 8px !important;
+    bottom: 8px;
+    border-radius: 8px;
+}
+.logo-footer {
+    width: 10%;
+}
+
+.inp-order {
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    width: auto;
+}

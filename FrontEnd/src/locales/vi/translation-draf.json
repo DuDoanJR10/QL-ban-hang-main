@@ -1,0 +1,59 @@
+{
+    "language": "Ngôn ngữ",
+    "title": "Xin chào",
+    "description": {
+      "title": "Welcome to {{framework}}"
+    },
+  
+    "common": {
+      "dashBoard": "Tổng quan",
+      "goods": "Hàng hóa",
+      "product": "Sản phẩm",
+      "priceSetting": "Thiết lập giá",
+      "receipt": "Hóa đơn",
+      "client" : "Khách hàng",
+      "staff": "Nhân viên",
+
+      "category": "Danh mục",
+      "enterAProductNameOrCode": "Nhập tên hoặc mã sản phẩm",
+      
+      "cost": "Giá gốc",
+      "inventory": "Tồn kho",
+      "seeDetails": "Xem chi tiết",
+      "search": "Tìm kiếm",
+      "code": "Mã",
+      "approval": "Duyệt",
+      "edit": "Sửa",
+      "published": "Hiển thị",
+      "unpublished": "Ẩn",
+      "delete": "Xóa",
+      "activeAccount": "Kích hoạt tài khoản",
+      "disabledAccount": "Vô hiệu hóa tài khoản",
+      "createProduct": "Thêm mới sản phẩm",
+      "createBundle": "Thêm mới Bundle",
+      "create": "Thêm mới",
+      "save": "Lưu",
+      "cancel": "Hủy",
+      "customer": "Khách hàng",
+      "exportfile": "Xuất file",
+      "importfile": "Nhập file",
+      "settingShowColumn": "Điều chỉnh cột hiển thị",
+      "deletecustomer": "Xóa khách hàng",
+      "productportfolio": "Danh mục sản phẩm",
+      "confirm": "Xác nhận",
+      "unit": "Đơn vị tính",
+      "feature": "Hoàn thiện",
+      "unfeature": "Chưa hoàn thiện",
+      "fileexportresults": "Kết quả xuất file",
+      "fileimportresults": "Kết quả nhập file",
+      "selected": "đã chọn",
+      "createsupply": "Thêm mới nhà cung cấp",
+      "createshop": "Thêm mới cửa hàng",
+      "listwarehouse": "Danh sách kho",
+      "selectFile": "Chọn file"
+    }, 
+    "home":{
+      "resultToday": "KẾT QUẢ BÁN HÀNG HÔM NAY"
+    }
+  }
+  

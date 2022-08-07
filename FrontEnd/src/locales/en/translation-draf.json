@@ -1,0 +1,54 @@
+{
+    "language": "Language",
+    "title": "Hello",
+    "description": {
+      "title": "Welcome to {{framework}} 2"
+    },
+    "common": {
+      "dashBoard": "DashBoard",
+      "goods": "Goods",
+      "product": "Product",
+      "receipt": "Receipt",
+      "client" : "Customer",
+      "staff": "Staff",
+
+      "category": "Category",
+      "enterAProductNameOrCode": "Enter a product name or code",
+      "cost": "Cost",
+      "inventory": "Inventory",
+      "seeDetails": "See details",
+      "search": "Search",
+      "code": "Code",
+      "approval": "Approval",
+      "edit": "Edit",
+      "published": "Published",
+      "unpublished": "Unpublished",
+      "delete": "Delete",
+      "activeAccount": "Active Account",
+      "disabledAccount": "Disabled Account",
+      "createProduct": "Create Product",
+      "createBundle": "Create Bundle",
+      "create": "Create",
+      "save": "Save",
+      "cancel": "Cancel",
+      "customer": "Customer",
+      "exportfile": "Export file",
+      "importfile": "Import file",
+      "settingShowColumn": "Setting show column",
+      "deletecustomer": "Delete customer",
+      "productportfolio": "Product portfolio",
+      "confirm": "Confirm",
+      "unit": "Unit",
+      "feature": "Feature",
+      "unfeature": "Unfeature",
+      "fileexportresults": "File export results",
+      "fileimportresults": "File import results",
+      "selected": "Selected",
+      "createsupply": "Create supplier",
+      "createshop": "Create shop",
+      "listwarehouse": "List warehouse",
+      "selectFile": "Select file"
+    }
+    
+    
+  }

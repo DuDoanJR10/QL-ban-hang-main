@@ -1,0 +1,171 @@
+//Color
+$primary-color: #0090da !important;
+
+
+$gray-light: #F0F2F5 !important; 
+$white: #fff !important;
+$blue: #1488c8 !important;
+$white_light: #eaeaea !important;
+$red: #ee2d33 !important;
+$red_dark: #0090da !important;
+$black: #1f1f1f !important;
+$gray: #bbbbbb !important;
+$gray_light: #eee !important;
+$gray_border: #f0f2f5 !important;
+$gray_boder_2: #c4c4c4 !important;
+$gray_border_3 : #D2D6DE !important;
+$gray_txt: #7c7c7c !important;
+$yellow: #ffc107 !important;
+$green: #31b802 !important;
+$blue-sky: #53bce9 !important;
+$blue-2: #1a4bb7 !important;
+$blue-3: #7c7c7c !important;
+$blue-4: #53bce9 !important;
+$blue-bold: #00315a !important;
+$black: #000000 !important;
+$black-2: rgb(43, 43, 43) !important;
+$light-black: #626262 !important;
+$blue-hover: #d9e6fc !important;
+$background-color: #f8f8f8 !important;
+$background-color-2: #e5e5e5 !important;
+$purple: #993393 !important;
+$purple-2: rgba(161, 7, 255, 0.72) !important;
+$gold: #b18734 !important;
+$gold-btn: #dab868 !important;
+$orange: #dd8c43 !important;
+$orange-2: #f28607 !important;
+$red-loss: #d22200 !important;
+$red-1: blue !important;
+$green-interest: #50961a !important;
+$green-interest-50: rgba(80, 150, 26, 0.5) !important;
+$green-label-success: #63d417 !important;
+$gray-border: #c4c4c4 !important;
+$gray-text: #e5e9ea !important;
+$gray-text-2: #c7c7c7 !important;
+$gray-text-3: #f6f6f6 !important;
+$gray-text-4: rgba(124, 124, 124, 0.7) !important;
+$gray-text-5: #4a4a4a !important;
+$gray-disable: rgba(124, 124, 124, 0.8);
+$yellow-label-pending: #ffb800 !important;
+$disable: #6d7278 !important;
+$green-done: #62c713 !important;
+$red-pink: rgba(229, 13, 13, 0.67) !important;
+$red-delete: rgba(222, 73, 67, 0.8) !important;
+$brown-1: #ad1e1e !important;;
+$colors: () !default;
+$colors: map-merge(
+  (
+    'white': $white,
+    'white-light': $white-light,
+    'blue': $blue,
+    'blue-2': $blue-2,
+    'blue-3': $blue-3,
+    'blue-4': $blue-4,
+    'blue-bold': $blue-bold,
+    'black': $black,
+    'black-2': $black-2,
+    'light-black': $light-black,
+    'blue-hover': $blue-hover,
+    'background-color': $background-color,
+    'background-color-2': $background-color-2,
+    'purple': $purple,
+    'purple-2': $purple-2,
+    'gold': $gold,
+    'gold-btn': $gold-btn,
+    'orange': $orange,
+    'orange-2': $orange-2,
+    'red-loss': $red-loss,
+    'red-1': $red-1,
+    'red-delete': $red-delete,
+    'green-interest': $green-interest,
+    'green-interest-50': $green-interest-50,
+    'green-label-success': $green-label-success,
+    'gray-border': $gray-border,
+    'gray-text': $gray-text,
+    'gray-text-2': $gray-text-2,
+    'gray-text-3': $gray-text-3,
+    'gray-text-4': $gray-text-4,
+    'gray-text-5': $gray-text-5,
+    'gray-disable': $gray-disable,
+    'yellow-label-pending': $yellow-label-pending,
+    'disable': $disable,
+    'yellow': $yellow,
+    'blue-sky': $blue-sky,
+    'green-done': $green-done,
+    'red-pink': $red-pink,
+    'brown-1': $brown-1,
+    'gray_border_3': $gray_border_3,
+    'gray-light': $gray-light
+  ),
+  $colors
+);
+
+
+//Border Radius
+$border-radius-base: 8px;
+$border-radius-xl: ($border-radius-base * 1.75);
+$border-radius-lg: ($border-radius-base * 1.2);
+$border-radius-sm: ($border-radius-base * 0.875);
+$border-radius-xs: ($border-radius-base * 0.5);
+
+//Gird
+$unit: 1%;
+//Font
+$font-family-base: 'Open Sans', sans-serif;
+$font-family-alt: 'Open Sans', sans-serif;
+
+$font-size-sm: 12px;
+$font-size-base: 14px; // Assumes the browser default, typically `16px`
+$font-size-lg: 16px;
+$font-size-xl: 18px;
+
+$fonts: ();
+$fonts: map-merge(
+  (
+    'sm': $font-size-sm,
+    'base': $font-size-base,
+    'lg': $font-size-lg,
+    'xl': $font-size-xl,
+  ),
+  $fonts
+);
+
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 600;
+$font-weight-extra-bold: 700;
+
+$font-weight-base: $font-weight-normal;
+$shape-height-base: 1.5;
+
+$h1-font-size: $font-size-base * 2.5; //2.1875rem
+$h2-font-size: $font-size-base * 2;
+$h3-font-size: $font-size-base * 1.75;
+$h4-font-size: $font-size-base * 1.5;
+$h5-font-size: $font-size-base * 1.25;
+$h6-font-size: $font-size-base;
+
+// icon
+$icomoon-font-family: 'icomoon';
+$icomoon-font-path: 'fonts';
+
+@each $color, $value in $colors {
+  .bg-#{$color} {
+    background-color: $value;
+  }
+  .text-#{$color} {
+    color: $value;
+  }
+}
+
+@each $font, $value in $fonts {
+  .font-#{$font} {
+    font-size: $value;
+  }
+}
+
+@for $width from 1 through 100 {
+  .width-#{$width} {
+    width: $width * $unit;
+  }
+}

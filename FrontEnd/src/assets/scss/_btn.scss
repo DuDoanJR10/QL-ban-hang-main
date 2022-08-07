@@ -1,0 +1,218 @@
+
+@import 'variables';
+.btn {
+  color: $black;
+  border-radius: 10px;
+  i {
+    margin: 0 10px;
+    font-size: 18px;
+  }
+  &-blue {
+    color: $white;
+    background: $blue;
+    border-color: $blue;
+    &:hover, &:focus {
+      color: $white;
+      background: $blue;
+      border-color: $blue;
+    }
+  }
+  &-bd-red {
+    border-color: $red-1;
+  }
+  &-bd-blue {
+    border-color: $blue;
+  }
+  &-no-bd {
+    border: none;
+  }
+  &-blue-3 {
+    color: $white;
+    background: $blue-3;
+    border-color: $blue-3;
+    &.bd-10 {
+      border-radius: 10px;
+    }
+    &:hover,&:focus {
+      color: $white;
+      background: $blue-3;
+      border-color: $blue-3;
+    }
+  }
+  &-blue-no-bg {
+    color: $blue;
+    border-color: $blue;
+    i:before {
+      color: $blue;
+    }
+  }
+  &-blue-sky {
+    color: $blue-sky;
+    border-color: $blue-sky;
+    i:before {
+      color: $blue-sky;
+    }
+  }
+  &-gray {
+    background: $gray-text;
+    border-radius: 3px;
+    color: $blue-3;
+    i:before {
+      color: $blue-3;
+    }
+    button {
+      background: $gray-text;
+    }
+  }
+
+  &-gray-text-white {
+    background: $gray-border;
+    border-radius: 3px;
+    color: $white;
+    i:before {
+      color: $white;
+    }
+    button {
+      background: $gray-border;
+    }
+  }
+
+  &-border-blue {
+    border: 1px solid $blue;
+  }
+
+  &-border-red {
+    border: 1px solid $red-1;
+  }
+
+  &-gray-text-black {
+    background: $gray-light;
+    color: $black;
+    border-radius: 10px;
+    border: 1px solid $gray_border_3;
+  }
+
+  &-green {
+    color: $white;
+    background-color: $green-interest;
+  }
+  &-yellow-1 {
+    background: #d5c530;
+    border-radius: 10px;
+    color: $white;
+    border-color: #d5c530;
+    &:hover,&:focus {
+      background: #d5c530;
+      color: $white;
+      border-color: #d5c530;
+    }
+  }
+  &-yellow {
+    background: $yellow;
+    border-radius: 10px;
+    color: $white;
+    border-color: $yellow;
+    &:hover,&:focus {
+      background: $yellow;
+      color: $white;
+      border-color: $yellow;
+    }
+  }
+  &-blue-sky {
+    background: $blue-sky;
+    border-color: $blue-sky;
+    color: $white;
+    &:hover,&:focus {
+      background: $blue-sky;
+      border-color: $blue-sky;
+      color: $white;
+    }
+  }
+  &-purple-2 {
+    background: $purple-2;
+    border-color: $purple-2;
+    color: $white;
+    &:hover,&:focus {
+      background: $purple-2;
+      border-color: $purple-2;
+      color: $white;
+    }
+  }
+  &-green-done {
+    background: $green-done;
+    color: $white;
+    border-color: $green-done;
+    &.bd-10 {
+      border-radius: 10px;
+    }
+    &:hover,&:focus {
+      background: $green-done;
+      color: $white;
+      border-color: $green-done;
+    }
+    &.border {
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+  }
+  &-red-1 {
+    background: $red-1;
+    border-radius: 10px;
+    color: $white;
+    border-color: $red-1;
+    &:hover,&:focus {
+      background: $red-1;
+      color: $white;
+      border-color: $red-1;
+    }
+  }
+  &-red-delete {
+    padding: 5px 10px;
+    background: $red-delete;
+    border-radius: 10px;
+    color: $white;
+    border-color: $red-delete;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    &:hover,&:focus {
+      background: $red-delete;
+      color: $white;
+      border-color: $red-delete;
+    }
+  }
+  &-gray-disable {
+    background: $gray-disable;
+    border-radius: 10px;
+    color: $white;
+    border-color: $gray-disable;
+    &:hover,&:focus {
+      background: $gray-disable;
+      color: $white;
+      border-color: $gray-disable;
+    }
+    &.border {
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+  }
+  &-edit {
+    background: $white;
+    border-radius: 10px;
+    color: $black;
+    border-color: $blue;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    &:hover,&:focus {
+      background: $white;
+      color: $black;
+      border-color: $blue;
+    }
+  }
+  &-brown-1 {
+    background-color: $brown-1;
+    color: $white;
+    border-radius: 5px;
+    border-color: $brown-1;
+    &:hover,&:focus {
+      background: $brown-1;
+      color: $white;
+      border-color: $brown-1;
+    }
+  }
+}
